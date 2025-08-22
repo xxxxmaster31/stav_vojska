@@ -1,7 +1,7 @@
 javascript:
-if(!licznik_wojska) var licznik_wojska={};
-var tabela;
-var sumaWojsk = [];
+if(!stav_vojska) var stav_vojska={};
+var tabuľka;
+var spoluvojska = [];
 var domyslnyWiersz = '0';
 licznik_wojska.link = "/game.php?&village="+game_data.village.id+"&type=complete&mode=units&group=0&page=-1&screen=overview_villages";
 if(game_data.player.sitter != 0) 
